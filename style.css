@@ -666,3 +666,67 @@ footer a:hover {
         width: 100%;
     }
 }
+
+@media (max-width:450px) {
+
+    #hero {
+        text-align: center;
+        padding-top: 5px;
+
+    }
+
+    #hero h4 {
+        text-align: center;
+    }
+
+    #hero button {
+        padding: 0;
+        width: 230px;
+        align-items: center;
+    }
+
+    #feature .fe-box {
+        width: 132px;
+        margin: 15px 5px;
+    }
+
+    .section-p1 {
+        padding: 40px 20px;
+    }
+
+    #product1 .pro {
+        margin: 2px;
+        width: 48%;
+        min-width: 25px;
+    }
+
+    #header {
+        padding: 20px 20px;
+
+    }
+
+    #sm-banner h2 {
+        line-height: 1;
+    }
+
+    #banner3 {
+        padding: 0 20px;
+    }
+
+    #banner3 .banner-box {
+        padding: 0;
+    }
+
+    #hero h4 {
+        display: none;
+    }
+
+    #hero h2 {
+        color: #ffffff;
+    }
+
+    #hero p {
+        color: #e0e0e0;
+    }
+
+}
