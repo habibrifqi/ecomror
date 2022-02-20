@@ -166,7 +166,7 @@ body {
 }
 
 #hero button {
-    background: url("img/btn1.png") no-repeat 95% 50%;
+    /* background: url("img/btn2.png"); */
     /* background-color: #088178; */
     background-color: transparent;
     background-size: cover;
@@ -174,14 +174,28 @@ body {
     color: #f3f3f3;
     border: 0;
     /* padding: 14px 80px 14px 80px; */
-    padding: 35px 80px;
+    /* padding: 35px 80px; */
     pointer-events: painted;
     width: 300px;
-    height: 250px;
+    /* height: 250px; */
     font-weight: 800;
-    margin-top: -100px;
+    /* margin-top: -100px; */
     cursor: pointer;
     font-size: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+#hero button::before {
+    width: 200px;
+    content: "";
+    background: url('img/btn2.png') no-repeat;
+    position: absolute;
+    height: 50px;
+    background-size: 100%;
+    z-index: -1;
+    top: -15px;
+    left: 50px;
 }
 
 #feature {
@@ -572,7 +586,7 @@ footer a:hover {
         right: -300px;
         height: 100vh;
         width: 300px;
-        background-color: #e3e6f3;
+        background-color: #cbccce;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
         padding: 80px 0 0 10px;
         transition: 0.3s;
@@ -685,6 +699,10 @@ footer a:hover {
         align-items: center;
     }
 
+    #hero button::before {
+        left: 15px;
+    }
+
     #feature .fe-box {
         width: 132px;
         margin: 15px 5px;
@@ -700,8 +718,26 @@ footer a:hover {
         min-width: 25px;
     }
 
+    #product1 .pro .des .bintang {
+        font-size: 11px;
+    }
+
+    #product1 .pro .des h5 {
+        font-size: 11px;
+    }
+
+    #product1 .pro .des h4 {
+        font-size: 11px;
+    }
+
+    #product1 .pro .cart {
+        width: 30px;
+        line-height: 30px;
+
+    }
+
     #header {
-        padding: 20px 20px;
+        padding: 5px 20px;
 
     }
 
