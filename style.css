@@ -685,7 +685,8 @@ footer a:hover {
 
     #hero {
         text-align: center;
-        padding-top: 5px;
+        padding: 0;
+        display: flex;
 
     }
 
@@ -693,10 +694,15 @@ footer a:hover {
         text-align: center;
     }
 
+    #hero p {
+        color: #fff;
+    }
+
     #hero button {
         padding: 0;
         width: 230px;
         align-items: center;
+        align-self: center;
     }
 
     #hero button::before {
@@ -761,8 +767,5 @@ footer a:hover {
         color: #ffffff;
     }
 
-    #hero p {
-        color: #e0e0e0;
-    }
 
 }
